@@ -47,7 +47,7 @@ export default function ImageSlideshow() {
             index === currentImageIndex ? classes.active : ""
           }`}
         >
-          <Image src={image.src} className={classes.img} alt={image.alt} />
+          <Image src={image.src} className={classes.img} alt={image.alt} fill />
         </div>
       ))}
     </div>

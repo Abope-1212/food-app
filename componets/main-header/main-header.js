@@ -5,7 +5,7 @@ import classes from "./main-header.module.css";
 import MainHeaderBackground from "./main-header-background";
 import logoImg from "@/assets/logo.png";
 import NavLink from "./nav-link";
-// import classes from "./nav-link.module.css";
+// import navLinkclasses from "./nav-link.module.css";
 
 export default function MainHeader() {
   return (

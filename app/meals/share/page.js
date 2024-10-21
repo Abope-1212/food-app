@@ -5,7 +5,6 @@ import classes from "./page.module.css";
 import { shareMeal } from "@/lib/action";
 import MealsFormSubmit from "@/componets/meals/meals-form-submit";
 
-
 export default function ShareMealPage() {
   const [state, formAction] = useActionState(shareMeal, { message: null });
 

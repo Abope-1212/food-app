@@ -5,6 +5,11 @@ import communityIcon from "@/assets/icons/community.png";
 import eventsIcon from "@/assets/icons/events.png";
 import classes from "./page.module.css";
 
+export const metadata = {
+  title: "Welcome",
+  description: "Browse the delicious meals shared by our vibrant community.",
+};
+
 export default function CommunityPage() {
   return (
     <>
